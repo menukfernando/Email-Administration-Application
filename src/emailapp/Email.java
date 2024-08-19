@@ -12,16 +12,16 @@ import java.util.Scanner;
  * @author Menuk Fernando
  */
 public class Email {
-    private String firstName;
-    private String lastName;
-    private String emailString;
-    private String email;
+    private final String firstName;
+    private final String lastName;
+    private final String emailString;
+    private final String email;
     private String password;
-    private int defaultPasswordLength = 20;
-    private String department;
+    private final int defaultPasswordLength = 20;
+    private final String department;
     private int mailBoxCapacity = 500;
     private String alternateEmail;
-    private String companySuffix = "saegis.lk";
+    private final String companySuffix = "saegis.lk";
     private int departmentCode;
     
         //Ask for the department
